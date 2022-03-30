@@ -10,4 +10,10 @@ html
         a(href='https://www.ispan.com.tw') ispan
       li bbb 
       li ccc
+    mixin pet(name)
+      li.pet= name
+    ul
+      +pet('cat')
+      +pet('dog')
+      +pet('pig')
     
